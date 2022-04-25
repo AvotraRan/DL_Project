@@ -1,0 +1,13 @@
+$python3 -m venv project
+$source project/bin/activate
+$desactivate
+$pip list
+$conda create -n project
+
+torch, pandas (numpy), torchvision, matplotlib, tqdm, pillow
+
+$python3 main.py --model_name resnet --num_epochs 10  
+
+$python3 predict.py --image_path "./data/Images/cat.0.jpg
+$pip freeze > requirements.txt
+
